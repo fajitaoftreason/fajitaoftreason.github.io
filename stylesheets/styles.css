@@ -553,6 +553,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, ul, ol, table, pre, dl {
   margin: 0 0 20px;
+    font-size: 16px;
 }
 
 h1, h2, h3 {
@@ -560,7 +561,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 32px;
 }
 
 h2 {
@@ -572,8 +573,8 @@ h4, h5, h6 {
 }
 
 h3 {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 22px;
+  line-height: 28px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: normal;
   color: #b6b6b6;
@@ -795,9 +796,9 @@ section #title {
 section #title h1 {
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  font-size: 40px;
+  font-size: 48px;
   text-align: center;
-  line-height: 36px;
+  line-height: 52px;
 }
 section #title p {
   color: #d7cfbe;
@@ -849,3 +850,5 @@ section #title .credits.right {
     display: none;
   }
 }
+
+
