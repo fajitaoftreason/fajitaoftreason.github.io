@@ -1,0 +1,164 @@
+% resume.tex
+% vim:set ft=tex spell:
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.75in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{mdwlist}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{tgpagella}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0em}
+
+% indentsection style, used for sections that aren't already in lists
+% that need indentation to the level of all text in the document
+\newenvironment{indentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% opposite of above; bump a section back toward the left margin
+\newenvironment{unindentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{-0.5#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% format two pieces of text, one left aligned and one right aligned
+\newcommand{\headerrow}[2]
+{\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+	#1 &
+	#2 \\
+\end{tabular*}}
+
+% make "C++" look pretty when used in text by touching up the plus signs
+\newcommand{\CPP}
+{C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf ++}}
+
+% and the actual content starts here
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{Matt Scudder}}
+
+1851 Bonneville Drive\ \ \textbullet
+\ \ Orlando, FL 32826
+\\
+(218) 666-8626\ \ \textbullet
+\ \ mattscudder@gmail.com
+\end{center}
+
+\hrule
+\subsection*{Objective}
+My goals are to increase familiarity with physics engines and to gain further knowledge on game programming. My interests include game programming and autonomous robotics. \\
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Education}
+
+\begin{itemize}
+	\parskip=0.1em
+
+	\item
+	\headerrow
+		{\textbf{University of Central Florida}}
+		{\textbf{Orlando, FL}}
+	\\
+	\headerrow
+		{\emph{Interdisciplinary Studies Major}}
+		{\emph{Graduation Dec. 2015}}
+	\begin{itemize*}
+		\item Interdisciplinary Studies with the main focus being in Computer Science and secondary focuses being in Physics and Psychology.
+		\item The combination of Computer Science, Physics and Psychology is beneficial to game design due to the recent interest in accurate physics in games as well as a psychology background that helps to create intuitive user interfaces.  
+	\end{itemize*}
+
+		\item
+	\headerrow
+		{\textbf{Pine View School for the Gifted}}
+		{\textbf{Osprey, FL}}
+	\\
+	\headerrow
+		{\emph{}}
+		{\emph{Graduation 2007}}
+	\begin{itemize*}
+		\item Ranked 6th best high school in the nation in 2007 by U.S. News.
+	\end{itemize*}
+
+
+
+\end{itemize}
+
+
+
+
+
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Core Technical Skills}
+
+\begin{indentsection}{\parindent}
+\hyphenpenalty=1000
+\begin{description*}
+	\item[Languages:]
+	C, Java, \LaTeX, Python
+\end{description*}
+\end{indentsection}
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Side Projects}
+
+\begin{itemize}
+	\parskip=0.1em
+
+	\item
+	\headerrow
+		{\textbf{Android App Creation}}
+		{\emph{Spring 2015}}
+	\begin{itemize*}
+		\item Created a card selector for the Dominion card game.
+		\item Created a remote to show a file selector and video player remote for the command line omxplayer on a raspberry pi using ssh as a backend.
+	\end{itemize*}
+
+	\item
+	\headerrow
+		{\textbf{Custom Quadcopter}}
+		{\emph{Winter 2014 - Current}}
+	\begin{itemize*}\item Built a quadcopter from scratch using an Arduino Uno as the fight controller. Modifications for the flight controller software are still under progress. 
+	\end{itemize*}
+
+	\item
+	\headerrow
+		{\textbf{redshift}}
+		{\emph{Spring 2014}}
+	\begin{itemize*}\item A Python Asteroids clone with an incentive for movement written for the Pygame framework.
+	\end{itemize*}
+\end{itemize}
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Extracurricular}
+
+\begin{itemize}
+	\parskip=0.1em
+
+	\item
+	\headerrow
+		{\textbf{Eagle Scout}}
+
+	\begin{itemize*}
+		\item Only 4\% of registered scouts attain the rank of Eagle.
+	\end{itemize*}
+	\item
+	\headerrow
+		{\textbf{National Youth Leadership Trainer}}
+
+
+\end{itemize}
+
+\end{document}
