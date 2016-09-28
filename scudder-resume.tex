@@ -8,6 +8,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{textcomp}
 \usepackage{tgpagella}
+\usepackage{graphicx}
 \pagestyle{empty}
 \setlength{\tabcolsep}{0em}
 
@@ -39,11 +40,19 @@
 \newcommand{\CPP}
 {C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf ++}}
 
+\graphicspath{ {resumeicons/} }
+
+% make all the icons scale properly to be used as bullets in the \item command
+\newcommand{\centeredicon}[1]
+	{$\begin{array}{r}
+	\includegraphics[height = 7 mm]{#1}
+	\end{array}$}
+
 % and the actual content starts here
 \begin{document}
 
 \begin{center}
-{\LARGE \textbf{Matt Scudder}}
+{\Huge \textbf{Matt Scudder}}
 
 1851 Bonneville Drive\ \ \textbullet
 \ \ Orlando, FL 32826
@@ -54,7 +63,7 @@
 
 \hrule
 \subsection*{Objective}
-My goals are to increase familiarity with physics engines and to gain further knowledge on game programming. My interests include game programming and autonomous robotics. \\
+My interests include programming and autonomous robotics. \\
 
 \hrule
 \vspace{-0.4em}
@@ -63,30 +72,19 @@ My goals are to increase familiarity with physics engines and to gain further kn
 \begin{itemize}
 	\parskip=0.1em
 
-	\item
+	\item[\centeredicon{diploma.png}]
 	\headerrow
 		{\textbf{University of Central Florida}}
 		{\textbf{Orlando, FL}}
 	\\
 	\headerrow
-		{\emph{Interdisciplinary Studies Major}}
-		{\emph{Graduation Dec. 2015}}
+		{\emph{Bachelor of Science, Interdisciplinary Studies}}
+		{\emph{Dec 2015}}
 	\begin{itemize*}
-		\item Interdisciplinary Studies with the main focus being in Computer Science and secondary focuses being in Physics and Psychology.
-		\item The combination of Computer Science, Physics and Psychology is beneficial to game design due to the recent interest in accurate physics in games as well as a psychology background that helps to create intuitive user interfaces.  
+		\item Primary focus in Computer Science with secondary focuses in Physics and Psychology.
+		\item The combination of Computer Science, Physics and Psychology is beneficial to understanding the similarities and relationships between physical and digital systems.
 	\end{itemize*}
 
-		\item
-	\headerrow
-		{\textbf{Pine View School for the Gifted}}
-		{\textbf{Osprey, FL}}
-	\\
-	\headerrow
-		{\emph{}}
-		{\emph{Graduation 2007}}
-	\begin{itemize*}
-		\item Ranked 6th best high school in the nation in 2007 by U.S. News.
-	\end{itemize*}
 
 
 
@@ -105,7 +103,7 @@ My goals are to increase familiarity with physics engines and to gain further kn
 \hyphenpenalty=1000
 \begin{description*}
 	\item[Languages:]
-	C, Java, \LaTeX, Python
+	C\#, C, Java, \LaTeX, Python
 \end{description*}
 \end{indentsection}
 
@@ -116,7 +114,14 @@ My goals are to increase familiarity with physics engines and to gain further kn
 \begin{itemize}
 	\parskip=0.1em
 
-	\item
+	\item[\centeredicon{quad.png}]
+	\headerrow
+	{\textbf{Custom Quadcopter}}
+	{\emph{Winter 2014 - Current}}
+	\begin{itemize*}\item Creation of an autonomous quadcopter as a continuous project and ongoing passion of mine. 
+	\end{itemize*}
+
+	\item[\centeredicon{android.png}]
 	\headerrow
 		{\textbf{Android App Creation}}
 		{\emph{Spring 2015}}
@@ -125,14 +130,8 @@ My goals are to increase familiarity with physics engines and to gain further kn
 		\item Created a remote to show a file selector and video player remote for the command line omxplayer on a raspberry pi using ssh as a backend.
 	\end{itemize*}
 
-	\item
-	\headerrow
-		{\textbf{Custom Quadcopter}}
-		{\emph{Winter 2014 - Current}}
-	\begin{itemize*}\item Built a quadcopter from scratch using an Arduino Uno as the fight controller. Modifications for the flight controller software are still under progress. 
-	\end{itemize*}
-
-	\item
+	
+	\item[\centeredicon{game.png}]
 	\headerrow
 		{\textbf{redshift}}
 		{\emph{Spring 2014}}
@@ -147,18 +146,24 @@ My goals are to increase familiarity with physics engines and to gain further kn
 \begin{itemize}
 	\parskip=0.1em
 
-	\item
+	\item[\centeredicon{eagle.jpg}]
 	\headerrow
 		{\textbf{Eagle Scout}}
 
 	\begin{itemize*}
+		\item Attained peer elected leadership position.
 		\item Only 4\% of registered scouts attain the rank of Eagle.
 	\end{itemize*}
-	\item
+	\item[\centeredicon{nylt.png}]
 	\headerrow
 		{\textbf{National Youth Leadership Training Staff}}
 
-	\item
+	\begin{itemize*}
+		\item Taught conflict resolution and team building tactics
+		\item Presented to large groups.
+	\end{itemize*}
+	
+	\item[\centeredicon{ultimate.png}]
 	\headerrow
 		{\textbf{Member of UCF Ultimate Team: Havoc}}
 
