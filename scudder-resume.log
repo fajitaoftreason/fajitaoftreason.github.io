@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.28)  28 SEP 2016 17:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.28)  29 SEP 2016 17:57
 entering extended mode
 **./scudder-resume.tex
 (scudder-resume.tex
@@ -683,61 +683,58 @@ LaTeX Font Info:    Try loading font information for TS1+qpl on input line 57.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tex-gyre\ts1qpl.fd"
 File: ts1qpl.fd 2009/09/25 v1.2 font definition file for TS1/qpl
 )
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 66.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 66.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 66.
 
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 75.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 75.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 75.
 <resumeicons/diploma.png, id=1, 513.92pt x 513.92pt>
 File: resumeicons/diploma.png Graphic file (type png)
 
 <use resumeicons/diploma.png>
-Package pdftex.def Info: resumeicons/diploma.png used on input line 75.
+Package pdftex.def Info: resumeicons/diploma.png used on input line 66.
 (pdftex.def)             Requested size: 19.91026pt x 19.91692pt.
 
 <resumeicons/quad.png, id=3, 513.92pt x 513.92pt>
 File: resumeicons/quad.png Graphic file (type png)
  <use resumeicons/quad.png>
-Package pdftex.def Info: resumeicons/quad.png used on input line 117.
+Package pdftex.def Info: resumeicons/quad.png used on input line 107.
 (pdftex.def)             Requested size: 19.91026pt x 19.91692pt.
 
 <resumeicons/android.png, id=4, 513.92pt x 513.92pt>
 File: resumeicons/android.png Graphic file (type png)
 
 <use resumeicons/android.png>
-Package pdftex.def Info: resumeicons/android.png used on input line 124.
+Package pdftex.def Info: resumeicons/android.png used on input line 114.
 (pdftex.def)             Requested size: 19.91026pt x 19.91692pt.
 
 <resumeicons/game.png, id=5, 513.92pt x 513.92pt>
 File: resumeicons/game.png Graphic file (type png)
  <use resumeicons/game.png>
-Package pdftex.def Info: resumeicons/game.png used on input line 134.
+Package pdftex.def Info: resumeicons/game.png used on input line 124.
 (pdftex.def)             Requested size: 19.91026pt x 19.91692pt.
 
 <resumeicons/eagle.jpg, id=6, 305.943pt x 349.305pt>
 File: resumeicons/eagle.jpg Graphic file (type jpg)
 
 <use resumeicons/eagle.jpg>
-Package pdftex.def Info: resumeicons/eagle.jpg used on input line 149.
+Package pdftex.def Info: resumeicons/eagle.jpg used on input line 139.
 (pdftex.def)             Requested size: 17.4408pt x 19.91692pt.
 
 <resumeicons/nylt.png, id=7, 254.69603pt x 254.69603pt>
 File: resumeicons/nylt.png Graphic file (type png)
 
 <use resumeicons/nylt.png>
-Package pdftex.def Info: resumeicons/nylt.png used on input line 157.
+Package pdftex.def Info: resumeicons/nylt.png used on input line 147.
 (pdftex.def)             Requested size: 19.91362pt x 19.91692pt.
 
 <resumeicons/ultimate.png, id=8, 513.92pt x 513.92pt>
 File: resumeicons/ultimate.png Graphic file (type png)
 
 <use resumeicons/ultimate.png>
-Package pdftex.def Info: resumeicons/ultimate.png used on input line 166.
+Package pdftex.def Info: resumeicons/ultimate.png used on input line 157.
 (pdftex.def)             Requested size: 19.91026pt x 19.91692pt.
  [1
 
@@ -758,7 +755,7 @@ Here is how much of TeX's memory you used:
 1.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/tex-gyre/qplb.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/tex-gyre/qplr.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on scudder-resume.pdf (1 page, 587456 bytes).
+Output written on scudder-resume.pdf (1 page, 586335 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
